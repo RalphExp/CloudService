@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "version": "1.0.0",
+  "description": "A sample simple application for k8s",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js"
+  },
+  "author": "ralph"
+}
