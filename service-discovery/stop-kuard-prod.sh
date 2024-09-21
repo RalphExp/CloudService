@@ -1,5 +1,8 @@
 #!/bin/bash
 
-microk8s kubectl delete service kuard
-microk8s kubectl delete deployment kuard
+echo "deleting kuard..."
+microk8s kubectl delete services,deployments kuard
+if [ $? == 0 ]; then
+  echo "done"
+fi
 
