@@ -4,7 +4,7 @@ metadata:
   name: path-ingress
 spec:
   rules:
-  - host: kuard2.example.com
+  - host: kuard.example.com
     http:
       paths:
       - pathType: Prefix
